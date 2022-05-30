@@ -46,10 +46,16 @@ html,
 body {
 	min-height: 100%;
 	position: relative;
+	font-family: 'SourceSansPro', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
 	font-size: 1rem;
+}
+
+main {
+	max-width: 87.5rem;
+	margin: 0 auto;
 }
 
 ul,
@@ -63,4 +69,12 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'SourceSansPro-Light', Tahoma, Geneva, Verdana, sans-serif;
 }
