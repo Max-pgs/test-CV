@@ -6,11 +6,87 @@
 "keywords":"WebCoder",
 "favicon":"img/favicons/favicon",
 })
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 
 <body>
 	@@include('components/page-blocks/_header.html')
 	<main class="main">
 		@@include('components/page-blocks/_section-join.html')
+		<section class="info">
+			<div class="info__container flex --dir-col --align-center">
+				<div class="info__users flex">
+					<div class="info__users-descr">
+						<h2 class="info__users-descr__title">
+							Code this block
+						</h2>
+						<div class="info__users-descr__wrapper">
+							<div class="info__users-descr__pic">
+								<img class="info__users-descr__photo"
+									 src="img/info/info__descr-photo.png"
+									 alt="photo">
+							</div>
+							<p class="info__users-descr__text">
+								This text should be changeable. Lorem ipsum text here. Offers great opportunities to everyone
+								looking to meet locals, find romantic dates and make new friends. Our dating site gives you
+								hours of dating fun, together with seemingly endless possibilities to meet new single people
+								from your area, make friends, go on a date and enjoy good company. With thousands of local
+								personals, will make your life a whole lot busier with all that dating. This is a great place to
+								find true friends or devoted partners for long-term relationships
+							</p>
+						</div>
+					</div>
+					<div class="info__users-list flex --dir-col">
+						<h2 class="info__users-list__title">
+							Users List
+						</h2>
+						<div class="swiper info__users-slider">
+							<div class="swiper-wrapper">
+								@@loop('components/bem-blocks/users-slider/users-slider.html', 'components/content/profiles.json')
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+						<div class="info__users-list__tabs">
+							<input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+							<label for="tab-btn-1">Users List</label>
+							<input type="radio" name="tab-btn" id="tab-btn-2" value="">
+							<label for="tab-btn-2">Active list tab | 10</label>
+						
+							<div id="content-1">
+							  @@loop('components/bem-blocks/users-list/_users-list.html', 'components/content/profiles.json')
+							</div>
+							<div id="content-2">
+							  <div class="info__users-list__container flex">
+								<div class="info__users-list__cell flex --dir-col --just-space">
+									<div class="info__users-list__bar">
+										<span>60%</span>
+									</div>
+									<div class="info__users-list__steps flex">
+										<div id="info__users-list__step1" class="info__users-list__step">Step 1</div>
+										<div id="info__users-list__step2" class="info__users-list__step">Step 2</div>
+										<div id="info__users-list__step3" class="info__users-list__step">Step 3</div>
+										<div id="info__users-list__step4" class="info__users-list__step">Step 4</div>
+										<div id="info__users-list__step5" class="info__users-list__step">Step 5</div>
+									</div>
+									<div class="info__users-list__slider">
+										<input type="text" class="js-range-slider" name="my_range" value="" />
+									</div>
+								</div>
+								<div class="info__users-list__progress">
+									
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info__succeed">
+
+				</div>
+			</div>
+		</section>
 	</main>
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/page-blocks/_scripts.html')

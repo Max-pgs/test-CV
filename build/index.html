@@ -25,6 +25,9 @@
 	<title>test CV</title>
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 
 <body>
 	<header class="header flex --align-center --just-center">
@@ -66,7 +69,7 @@
                     <div class="join__form-sex__container flex --align-center --just-space">
                         <div class="join__form-sex__wrapper flex --align-center --just-center">
                             <div class="join__form-sex__part flex --align-center --just-center">
-                                <input id="join__form-sex__self-woman" class="join__form-sex__radio" type="radio" name="sex__1" required>
+                                <input id="join__form-sex__self-woman" class="join__form-sex__radio" type="radio" name="sex__1" required checked>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.719" height="28.75" viewBox="0 0 15.719 28.75">
                                     <defs>
                                       <filter id="filter_1" x="839" y="218" width="15.719" height="28.75" filterUnits="userSpaceOnUse">
@@ -113,7 +116,7 @@
                         </span>
                         <div class="join__form-sex__wrapper flex --align-center --just-center">
                             <div class="join__form-sex__part flex --align-center --just-center">
-                                <input id="join__form-sex__looking-woman" class="join__form-sex__radio" type="radio" name="sex__2" required>
+                                <input id="join__form-sex__looking-woman" class="join__form-sex__radio" type="radio" name="sex__2" checked required>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.719" height="28.75" viewBox="0 0 15.719 28.75">
                                     <defs>
                                       <filter id="filter_1" x="839" y="218" width="15.719" height="28.75" filterUnits="userSpaceOnUse">
@@ -231,10 +234,382 @@
                         </button>
                     </div>
                 </div>
-                
             </form>
         </div>
 </section>
+		<section class="info">
+			<div class="info__container flex --dir-col --align-center">
+				<div class="info__users flex">
+					<div class="info__users-descr">
+						<h2 class="info__users-descr__title">
+							Code this block
+						</h2>
+						<div class="info__users-descr__wrapper">
+							<div class="info__users-descr__pic">
+								<img class="info__users-descr__photo"
+									 src="img/info/info__descr-photo.png"
+									 alt="photo">
+							</div>
+							<p class="info__users-descr__text">
+								This text should be changeable. Lorem ipsum text here. Offers great opportunities to everyone
+								looking to meet locals, find romantic dates and make new friends. Our dating site gives you
+								hours of dating fun, together with seemingly endless possibilities to meet new single people
+								from your area, make friends, go on a date and enjoy good company. With thousands of local
+								personals, will make your life a whole lot busier with all that dating. This is a great place to
+								find true friends or devoted partners for long-term relationships
+							</p>
+						</div>
+					</div>
+					<div class="info__users-list flex --dir-col">
+						<h2 class="info__users-list__title">
+							Users List
+						</h2>
+						<div class="swiper info__users-slider">
+							<div class="swiper-wrapper">
+								<article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Samanta
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Kate
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Sasha
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Lilya
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Julia
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Alice
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Jenya
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Marina
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Katya
+    </p>
+</article><article class="swiper-slide info__users-slider__slide">
+    <img src="img/info/users__list-photo.png"
+            alt="photo">
+    <div class="info__users-slider__smile">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="16.6"
+                height="16.594"
+                viewBox="0 0 16.6 16.594">
+            <path id="ico_wink"
+                    class="cls-3"
+                    d="M1125.49,757.547c-1.14,0-2.07,1.86-2.07.715a2.075,2.075,0,0,1,4.15,0C1127.57,759.407,1126.64,757.547,1125.49,757.547Zm-6.22,2.789a2.074,2.074,0,1,1,2.07-2.074A2.068,2.068,0,0,1,1119.27,760.336Zm0-3.111a1.037,1.037,0,1,0,1.04,1.037A1.041,1.041,0,0,0,1119.27,757.225Zm3.11,9.333a5.3,5.3,0,0,1-4.75-3.242h9.5A5.3,5.3,0,0,1,1122.38,766.558Zm0-14.519a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,1122.38,752.039Z"
+                    transform="translate(-1114.09 -752.031)" />
+        </svg>
+    </div>
+    <div class="info__users-slider__add">
+        <svg xmlns="http://www.w3.org/2000/svg"
+                width="15.28"
+                height="17.625"
+                viewBox="0 0 15.28 17.625">
+            <path id="ico_add"
+                    class="cls-4"
+                    d="M1149.61,762.662a2.727,2.727,0,0,1-2.38-2.484,3.905,3.905,0,0,0,.84-1.484,0.406,0.406,0,0,0,.19.01,1.68,1.68,0,0,0,.91-1.3,0.719,0.719,0,0,0-.52-0.958c0.28-.433.56-4.576-3.45-4.576-4.21,0-3.73,4.143-3.45,4.576a0.719,0.719,0,0,0-.52.958,1.68,1.68,0,0,0,.91,1.3,0.406,0.406,0,0,0,.19-0.01,3.832,3.832,0,0,0,.86,1.5,2.73,2.73,0,0,1-2.38,2.469c-3.03.275-3.2,4.447-3,4.961,0.19,0.491,1.65,1.386,7.4,1.386,5.89,0,7.21-.895,7.4-1.386C1152.8,767.109,1152.64,762.937,1149.61,762.662Zm-2.15-1.132h4.78V768.7h-4.78V761.53Zm6.37,2.389V767.9h-8.75v-3.982h8.75Zm-5.57-1.593h2.39v7.167h-2.39v-7.167Zm4.78,2.389V767.1h-7.17v-2.389h7.17Z"
+                    transform="translate(-1137.75 -751.875)" />
+        </svg>
+    </div>
+    <p class="info__users-slider__name">
+        Lolita
+    </p>
+</article>
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+						<div class="info__users-list__tabs">
+							<input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+							<label for="tab-btn-1">Users List</label>
+							<input type="radio" name="tab-btn" id="tab-btn-2" value="">
+							<label for="tab-btn-2">Active list tab | 10</label>
+						
+							<div id="content-1">
+							  <article class="users__list-item">
+    <b>Samanta</b>, age: 23, sex: woman
+</article><article class="users__list-item">
+    <b>Kate</b>, age: 18, sex: woman
+</article><article class="users__list-item">
+    <b>Sasha</b>, age: 21, sex: woman
+</article><article class="users__list-item">
+    <b>Lilya</b>, age: 22, sex: woman
+</article><article class="users__list-item">
+    <b>Julia</b>, age: 20, sex: woman
+</article><article class="users__list-item">
+    <b>Alice</b>, age: 25, sex: woman
+</article><article class="users__list-item">
+    <b>Jenya</b>, age: 24, sex: woman
+</article><article class="users__list-item">
+    <b>Marina</b>, age: 28, sex: woman
+</article><article class="users__list-item">
+    <b>Katya</b>, age: 30, sex: woman
+</article><article class="users__list-item">
+    <b>Lolita</b>, age: 23, sex: woman
+</article>
+							</div>
+							<div id="content-2">
+							  <div class="info__users-list__container flex">
+								<div class="info__users-list__cell flex --dir-col --just-space">
+									<div class="info__users-list__bar">
+										<span>60%</span>
+									</div>
+									<div class="info__users-list__steps flex">
+										<div id="info__users-list__step1" class="info__users-list__step">Step 1</div>
+										<div id="info__users-list__step2" class="info__users-list__step">Step 2</div>
+										<div id="info__users-list__step3" class="info__users-list__step">Step 3</div>
+										<div id="info__users-list__step4" class="info__users-list__step">Step 4</div>
+										<div id="info__users-list__step5" class="info__users-list__step">Step 5</div>
+									</div>
+									<div class="info__users-list__slider">
+										<input type="text" class="js-range-slider" name="my_range" value="" />
+									</div>
+								</div>
+								<div class="info__users-list__progress">
+									
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info__succeed">
+
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer class="footer"></footer>
 

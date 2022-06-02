@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Samanta",
+        "age": 23,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Samanta"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Kate",
+        "age": 18,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Kate"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sasha",
+        "age": 21,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Sasha"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Lilya",
+        "age": 22,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Lilya"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Julia",
+        "age": 20,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Julia"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Alice",
+        "age": 25,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Soska"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Jenya",
+        "age": 24,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Jenya"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Marina",
+        "age": 28,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Marina"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Katya",
+        "age": 30,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Katya"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Lolita",
+        "age": 23,
+        "sex": "woman",
+        "picture": {
+            "link": "users__list-photo",
+            "alt": "Lolita"
+        }
+    }
+]

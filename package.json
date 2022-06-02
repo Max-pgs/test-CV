@@ -43,6 +43,7 @@
     "vinyl-ftp": "^0.6.1"
   },
   "dependencies": {
+    "ion-rangeslider": "^2.3.1",
     "swiper": "^8.1.5"
   }
 }
