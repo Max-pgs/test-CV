@@ -352,3 +352,139 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .join {
+        &__container {
+            max-width: 48rem;
+            flex-direction: column;
+        }
+        &__slider {
+            width: 30rem;
+            margin-bottom: 1rem;
+        }
+        &__form {
+            width: 30rem;
+            background-color: #fff;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .join {
+        background: #fff;
+        &__container {
+            max-width: 20rem;
+            flex-direction: column;
+        }
+        &__slider {
+            width: 20rem;
+            margin-bottom: 1rem;
+            &-slide {
+                height: 20rem;
+                &__img {
+                    height: inherit;
+                }
+            }
+        }
+        &__form {
+            width: 20rem;
+            padding: 1rem 0.5rem;
+        }
+        &__form-title {
+            text-align: center;
+            font-size: 2rem;
+            &:before{
+                height: 20px;
+            }
+        }
+        &__form-sex__title {
+            width: 3rem;
+            font-size: 0.9rem;
+        }
+        &__form-sex__container {
+            width: 16rem;
+        }
+        &__form-sex__orientation {
+            font-size: 0.9rem;
+        }
+        &__form-name__title {
+            width: 3rem;
+            font-size: 0.9rem;
+        }
+        &__form-name__container {
+            width: 16rem;
+        }
+        &__form-age__container {
+            width: 16rem;
+            flex-direction: column;
+            align-items: flex-start;
+            div {
+                width: 100%;
+                margin-top: 1rem;
+                &:nth-child(1) {
+                    margin-top: 0;
+                }
+                select {
+                    width: 100%;
+                }
+            }
+        }
+        &__form-age__title {
+            width: 3rem;
+            font-size: 0.9rem;
+        }
+        &__form-age__block:nth-child(1),
+        &__form-age__block:nth-child(2),
+        &__form-age__block:nth-child(3) {
+            &::before {
+                left: 14.5rem;
+            }
+            &::after {
+                left: 13.7rem;
+            }
+        }
+
+        #join__form-age__day {
+            width: 100%;
+            text-align: left;
+            padding-left: 1rem;
+        }
+        #join__form-age__month {
+            width: 100%;
+        }
+        #join__form-age__year {
+            width: 100%;
+            text-align: left;
+            padding-left: 1rem;
+        }
+        &__form-city__title {
+            width: 3rem;
+        }
+        &__form-city__container {
+            width: 16rem;
+            &::before {
+                left: 14.5rem;
+            }
+            &::after {
+                left: 13.7rem;
+            }
+        }
+        .join__form-boxes {
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+        .join__form-boxes__container {
+            width: 50%;
+            margin-left: 3rem;
+        }
+        .join__form-submit {
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .join__form-submit__container {
+            width: 18rem;
+            margin: 0 auto;
+        }
+    }
+}

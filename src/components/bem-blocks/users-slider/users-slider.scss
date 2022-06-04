@@ -75,7 +75,7 @@
         position: absolute;
         display: none;
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 1rem;
         top: 0.5rem;
         text-align: center;
         z-index: 1;
@@ -90,5 +90,32 @@
         fill: #fff;
         fill-rule: evenodd;
         opacity: 0.5;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767.5px) {
+    .info__users-slider {
+        padding: 0;
+        width: 19rem;
+        .swiper-button-prev {
+            display: none;
+        }
+        .swiper-button-next {
+            display: none;
+        }
+        &__slide {
+            height: 3.5rem;
+        }
+        &__smile {
+            top: 1.8rem;
+            left: 0.5rem;
+        }
+        &__add {
+            top: 1.8rem;
+            left: 1.9rem;
+        }
+        &__name {
+            font-size: 0.7rem;
+        }
     }
 }
