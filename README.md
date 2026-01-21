@@ -1,1 +1,1 @@
-https://hellmax-pg.github.io/test-CV/build/
+https://Max-pgs.github.io/test-CV/build/
